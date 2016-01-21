@@ -117,6 +117,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a69e2ba007e5c4855956dd4351146d66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36d39f482a5b5cec199dbef62ec962d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_application.html#a36d39f482a5b5cec199dbef62ec962d2">addScene</a> (<a class="el" href="classatlas_1_1utils_1_1_scene.html">Scene</a> *scene)</td></tr>
 <tr class="separator:a36d39f482a5b5cec199dbef62ec962d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55d7a1d088d0b6d2e4c1bd7e55e47025"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_application.html#a55d7a1d088d0b6d2e4c1bd7e55e47025">nextScene</a> ()</td></tr>
+<tr class="separator:a55d7a1d088d0b6d2e4c1bd7e55e47025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79aa577bde092e96d156c2ba6f25423b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_application.html#a79aa577bde092e96d156c2ba6f25423b">previousScene</a> ()</td></tr>
+<tr class="separator:a79aa577bde092e96d156c2ba6f25423b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59d22a2d8d2248809071fcbe39eec5f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classatlas_1_1utils_1_1_scene.html">Scene</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_application.html#a59d22a2d8d2248809071fcbe39eec5f3">getCurrentScene</a> () const </td></tr>
 <tr class="separator:a59d22a2d8d2248809071fcbe39eec5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -175,7 +179,7 @@ While the Scenes can use whatever keys they want from the keyboard to specify th
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00204">204</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00281">281</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
 
 </div>
 </div>
@@ -218,7 +222,7 @@ While the Scenes can use whatever keys they want from the keyboard to specify th
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00116">116</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00177">177</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
 
 </div>
 </div>
@@ -237,7 +241,7 @@ While the Scenes can use whatever keys they want from the keyboard to specify th
 <p>Returns the scene that is currently being played.</p>
 <dl class="section return"><dt>Returns</dt><dd>The current scene. </dd></dl>
 
-<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00210">210</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00296">296</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
 
 </div>
 </div>
@@ -273,7 +277,7 @@ While the Scenes can use whatever keys they want from the keyboard to specify th
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00199">199</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00276">276</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
 
 </div>
 </div>
@@ -299,7 +303,45 @@ While the Scenes can use whatever keys they want from the keyboard to specify th
 </div><div class="memdoc">
 <p>Returns the instance of the application. </p><dl class="section return"><dt>Returns</dt><dd>The application instance. </dd></dl>
 
-<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00110">110</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00171">171</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a55d7a1d088d0b6d2e4c1bd7e55e47025"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void atlas::utils::Application::nextScene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Moves to the next scene in the queue. If there is only one scene, this does nothing.</p>
+<dl class="section note"><dt>Note</dt><dd>When scenes are shifted, the current tick is stored and preserved for when that particular scene is displayed again. In other words, time is "frozen" for scenes when they leave the screen and is reactivated when they return. </dd></dl>
+
+<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00286">286</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79aa577bde092e96d156c2ba6f25423b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void atlas::utils::Application::previousScene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Moves to the previous scene in the queue. If there is only one scene, this does nothing.</p>
+<dl class="section note"><dt>Note</dt><dd>When scenes are shifted, the current tick is stored and preserved for when that particular scene is displayed again. In other words, time is "frozen" for scenes when they leave the screen and is reactivated when they return. </dd></dl>
+
+<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00291">291</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
 
 </div>
 </div>
@@ -317,7 +359,7 @@ While the Scenes can use whatever keys they want from the keyboard to specify th
 </div><div class="memdoc">
 <p>Enters the application main loop and runs the scenes. Exits whenever the user closes the window. </p>
 
-<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00164">164</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_application_8cpp_source.html#l00241">241</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
 
 </div>
 </div>
@@ -328,7 +370,7 @@ While the Scenes can use whatever keys they want from the keyboard to specify th
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 15 2016 20:13:34 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 21 2016 14:02:53 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

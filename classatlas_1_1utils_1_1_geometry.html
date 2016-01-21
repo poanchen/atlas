@@ -117,12 +117,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9102f4121ae376bd3d33c9a004d1fde3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdbc9924b8b6ada0c325752fcb43e536"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#abdbc9924b8b6ada0c325752fcb43e536">transformGeometry</a> (math::Matrix4 const &amp;t)</td></tr>
 <tr class="separator:abdbc9924b8b6ada0c325752fcb43e536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af62e6e66618d5f5c98817032c8978430"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#af62e6e66618d5f5c98817032c8978430">resetGeometry</a> ()</td></tr>
+<tr class="separator:af62e6e66618d5f5c98817032c8978430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
 Protected Types</h2></td></tr>
 <tr class="memitem:a91816d7b51cc2c3cab54d26eab6f2350"><td class="memItemLeft" align="right" valign="top">typedef std::unique_ptr&lt; <a class="el" href="classatlas_1_1gl_1_1_shader.html">gl::Shader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#a91816d7b51cc2c3cab54d26eab6f2350">ShaderPointer</a></td></tr>
 <tr class="separator:a91816d7b51cc2c3cab54d26eab6f2350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5821e28dbfb85147e165f45daf7e0d7d"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::string, GLuint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#a5821e28dbfb85147e165f45daf7e0d7d">UniformKey</a></td></tr>
+<tr class="memitem:a5821e28dbfb85147e165f45daf7e0d7d"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::string, GLint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#a5821e28dbfb85147e165f45daf7e0d7d">UniformKey</a></td></tr>
 <tr class="separator:a5821e28dbfb85147e165f45daf7e0d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -134,7 +136,7 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a76e0867a3e56e38e206237087c193fdf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classatlas_1_1utils_1_1_geometry.html#a91816d7b51cc2c3cab54d26eab6f2350">ShaderPointer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#a76e0867a3e56e38e206237087c193fdf">mShaders</a></td></tr>
 <tr class="separator:a76e0867a3e56e38e206237087c193fdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70bf2ef6b40fa93edf135783ecf08151"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, GLuint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#a70bf2ef6b40fa93edf135783ecf08151">mUniforms</a></td></tr>
+<tr class="memitem:a70bf2ef6b40fa93edf135783ecf08151"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, GLint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#a70bf2ef6b40fa93edf135783ecf08151">mUniforms</a></td></tr>
 <tr class="separator:a70bf2ef6b40fa93edf135783ecf08151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68a5899b2a14e60d9b6f32ff98c0f62e"><td class="memItemLeft" align="right" valign="top">math::Matrix4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_geometry.html#a68a5899b2a14e60d9b6f32ff98c0f62e">mModel</a></td></tr>
 <tr class="separator:a68a5899b2a14e60d9b6f32ff98c0f62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,7 +180,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>In order to facilitate adding shaders to the shader list, this typedef is provided for unique pointers of Shader objects. </p>
 
-<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00124">124</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00131">131</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -201,7 +203,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Makes adding new uniform pairs easier and more readable. </p>
 
-<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00136">136</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00143">143</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -311,7 +313,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the ray intersects the object, false otherwise. </dd></dl>
 
-<p>Definition at line <a class="el" href="_geometry_8cpp_source.html#l00042">42</a> of file <a class="el" href="_geometry_8cpp_source.html">Geometry.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_geometry_8cpp_source.html#l00045">45</a> of file <a class="el" href="_geometry_8cpp_source.html">Geometry.cpp</a>.</p>
 
 </div>
 </div>
@@ -356,6 +358,32 @@ Protected Attributes</h2></td></tr>
 </dl>
 
 <p>Definition at line <a class="el" href="_geometry_8cpp_source.html#l00030">30</a> of file <a class="el" href="_geometry_8cpp_source.html">Geometry.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af62e6e66618d5f5c98817032c8978430"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void atlas::utils::Geometry::resetGeometry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This is called whenever the geometry needs to be restored to its initial state. Use it to restart things like animations. </p>
+
+<p>Definition at line <a class="el" href="_geometry_8cpp_source.html#l00042">42</a> of file <a class="el" href="_geometry_8cpp_source.html">Geometry.cpp</a>.</p>
 
 </div>
 </div>
@@ -445,7 +473,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The model matrix for the object. </p>
 
-<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00149">149</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00156">156</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -468,7 +496,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The list of shaders for the specific object. </p>
 
-<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00130">130</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00137">137</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -491,7 +519,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The map of uniform variables for the shaders. The variables can be accessed by their name. </p>
 
-<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00143">143</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_geometry_8hpp_source.html#l00150">150</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -502,7 +530,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 15 2016 20:13:34 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 21 2016 14:02:53 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

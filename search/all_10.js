@@ -1,13 +1,21 @@
 var searchData=
 [
-  ['texture',['Texture',['../classatlas_1_1gl_1_1_texture.html',1,'atlas::gl']]],
-  ['texture',['Texture',['../classatlas_1_1gl_1_1_texture.html#add445ea6708bc8d7afd6a1c4abeae215',1,'atlas::gl::Texture::Texture()'],['../classatlas_1_1gl_1_1_texture.html#a9c948fbe094af4bcc6c51d0b16a2d44a',1,'atlas::gl::Texture::Texture(std::string const &amp;filename)']]],
-  ['time',['Time',['../structatlas_1_1utils_1_1_time.html',1,'atlas::utils']]],
-  ['time',['Time',['../structatlas_1_1utils_1_1_time.html#a9b5876e70c2ab07106f0dda70c5761ff',1,'atlas::utils::Time::Time()'],['../structatlas_1_1utils_1_1_time.html#a5017072343caf53fcd270af9530a4138',1,'atlas::utils::Time::Time(Time const &amp;t)=default']]],
-  ['timer',['Timer',['../classatlas_1_1core_1_1_timer.html',1,'atlas::core']]],
-  ['timer',['Timer',['../classatlas_1_1core_1_1_timer.html#a03e4d010b13a480c7a3aec5cb288b366',1,'atlas::core::Timer']]],
-  ['totaltime',['totalTime',['../structatlas_1_1utils_1_1_time.html#a29c6ec8ded26b36c05e7e93fd3c48e26',1,'atlas::utils::Time']]],
-  ['track',['TRACK',['../classatlas_1_1utils_1_1_camera.html#a14cefa0b3770ec489328f30172c1cf73ab82057c0f8a7631cf533363631986a00',1,'atlas::utils::Camera']]],
-  ['transformgeometry',['transformGeometry',['../classatlas_1_1utils_1_1_geometry.html#abdbc9924b8b6ada0c325752fcb43e536',1,'atlas::utils::Geometry']]],
-  ['tumble',['TUMBLE',['../classatlas_1_1utils_1_1_camera.html#a14cefa0b3770ec489328f30172c1cf73a80c887bde0b0cbfcdffff4a433acf754',1,'atlas::utils::Camera']]]
+  ['savetoppm',['saveToPPM',['../classatlas_1_1utils_1_1_film.html#a2c13307a0c53d35e3514332fb960d5d1',1,'atlas::utils::Film']]],
+  ['scene',['Scene',['../classatlas_1_1utils_1_1_scene.html',1,'atlas::utils']]],
+  ['scene',['Scene',['../classatlas_1_1utils_1_1_scene.html#a90ad62df2b0ee91c5eb25b6b336f3daa',1,'atlas::utils::Scene']]],
+  ['sceneended',['sceneEnded',['../classatlas_1_1utils_1_1_scene.html#a8f61a3243054d9b9f04600a7db20abd0',1,'atlas::utils::Scene']]],
+  ['screenresizeevent',['screenResizeEvent',['../classatlas_1_1utils_1_1_scene.html#a2813a902f68854902e0ba57ec41857d8',1,'atlas::utils::Scene']]],
+  ['setgamma',['setGamma',['../classatlas_1_1utils_1_1_film.html#ad7588e36d583b939b4b9e2626f220c81',1,'atlas::utils::Film']]],
+  ['setshowoutofgamut',['setShowOutOfGamut',['../classatlas_1_1utils_1_1_film.html#a07dcc1a9df319f4f8a8f934a5a91d59c',1,'atlas::utils::Film']]],
+  ['severitylevel',['SeverityLevel',['../classatlas_1_1core_1_1_log.html#a1ba5307e8f2a88ce738f900a23bf5bf0',1,'atlas::core::Log']]],
+  ['shader',['Shader',['../classatlas_1_1gl_1_1_shader.html',1,'atlas::gl']]],
+  ['shader',['Shader',['../classatlas_1_1gl_1_1_shader.html#a47d9b3454cc9bbb9db2a54f0a5efb6be',1,'atlas::gl::Shader::Shader()'],['../classatlas_1_1gl_1_1_shader.html#a3e91c0b526fec7704f8f81773d71461a',1,'atlas::gl::Shader::Shader(Shader const &amp;shader)']]],
+  ['shaderfile',['shaderFile',['../structatlas_1_1gl_1_1_shader_info.html#a8aaf1174bab36d6fd2ed46710b644b3e',1,'atlas::gl::ShaderInfo']]],
+  ['shaderhandle',['shaderHandle',['../structatlas_1_1gl_1_1_shader_info.html#a09372cbbe845208cb1796a32be8aadb8',1,'atlas::gl::ShaderInfo']]],
+  ['shaderinfo',['ShaderInfo',['../structatlas_1_1gl_1_1_shader_info.html#af5a9a662ec81442720ee5e2574ba7b6c',1,'atlas::gl::ShaderInfo::ShaderInfo()'],['../structatlas_1_1gl_1_1_shader_info.html#a2ee0d3b179dc9508e772c668f9289fd8',1,'atlas::gl::ShaderInfo::ShaderInfo(GLenum type, std::string const &amp;name)'],['../structatlas_1_1gl_1_1_shader_info.html#a97f280e708880a7aa3cc66a125bc245d',1,'atlas::gl::ShaderInfo::ShaderInfo(ShaderInfo const &amp;shader, GLuint handle)'],['../structatlas_1_1gl_1_1_shader_info.html#a9d079bf261144385558bfbbd07b084c5',1,'atlas::gl::ShaderInfo::ShaderInfo(ShaderInfo const &amp;shader)=default']]],
+  ['shaderinfo',['ShaderInfo',['../structatlas_1_1gl_1_1_shader_info.html',1,'atlas::gl']]],
+  ['shaderpointer',['ShaderPointer',['../classatlas_1_1utils_1_1_geometry.html#a91816d7b51cc2c3cab54d26eab6f2350',1,'atlas::utils::Geometry']]],
+  ['shadertype',['shaderType',['../structatlas_1_1gl_1_1_shader_info.html#ab8070640b803a0152f975a6d8829eedd',1,'atlas::gl::ShaderInfo']]],
+  ['solvers_2ehpp',['Solvers.hpp',['../_solvers_8hpp.html',1,'']]],
+  ['start',['start',['../classatlas_1_1core_1_1_timer.html#a554a72aab684fa7779c4a4030d4fc47c',1,'atlas::core::Timer']]]
 ];

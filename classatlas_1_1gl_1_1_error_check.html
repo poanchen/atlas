@@ -104,6 +104,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aacc8a66968fc4fdef5e177b32af4287c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1gl_1_1_error_check.html#aacc8a66968fc4fdef5e177b32af4287c">checkGLErrors</a> ()</td></tr>
 <tr class="separator:aacc8a66968fc4fdef5e177b32af4287c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b98188244c278112247ffde663765f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1gl_1_1_error_check.html#a71b98188244c278112247ffde663765f">clearGLErrors</a> ()</td></tr>
+<tr class="separator:a71b98188244c278112247ffde663765f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides a way for checking OpenGL errors. </p>
@@ -139,6 +141,33 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a71b98188244c278112247ffde663765f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void atlas::gl::ErrorCheck::clearGLErrors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Loops through the OpenGL error queue and cleans it out.</p>
+<dl class="section warning"><dt>Warning</dt><dd>This function does not print errors! Use with care. </dd></dl>
+
+<p>Definition at line <a class="el" href="_error_check_8cpp_source.html#l00046">46</a> of file <a class="el" href="_error_check_8cpp_source.html">ErrorCheck.cpp</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/External/GitHub/atlas/include/atlas/gl/<a class="el" href="_error_check_8hpp_source.html">ErrorCheck.hpp</a></li>
 <li>D:/External/GitHub/atlas/source/atlas/gl/<a class="el" href="_error_check_8cpp_source.html">ErrorCheck.cpp</a></li>
@@ -146,7 +175,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 15 2016 20:13:34 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 21 2016 14:02:53 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

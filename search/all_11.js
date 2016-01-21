@@ -1,15 +1,13 @@
 var searchData=
 [
-  ['uniformkey',['UniformKey',['../classatlas_1_1utils_1_1_geometry.html#a5821e28dbfb85147e165f45daf7e0d7d',1,'atlas::utils::Geometry']]],
-  ['unused',['UNUSED',['../_macros_8hpp.html#aea1d71af1a30c261dbd16745c82e94ba',1,'Macros.hpp']]],
-  ['updategeometry',['updateGeometry',['../classatlas_1_1utils_1_1_geometry.html#aafa98bc09ec0b5d3f4a3843030b7f1b1',1,'atlas::utils::Geometry']]],
-  ['updatescene',['updateScene',['../classatlas_1_1utils_1_1_scene.html#a1882dde3884ee8d72a107d43ac1db833',1,'atlas::utils::Scene']]],
-  ['using_5fatlas_5fcore_5fns',['USING_ATLAS_CORE_NS',['../_core_8hpp.html#a46bc24237a33baae5507a49da687b43f',1,'Core.hpp']]],
-  ['using_5fatlas_5fgl_5fns',['USING_ATLAS_GL_NS',['../_g_l_8hpp.html#a761a02f2e89f365fd5a8408b6b9e0f64',1,'GL.hpp']]],
-  ['using_5fatlas_5fmath_5fns',['USING_ATLAS_MATH_NS',['../_math_8hpp.html#a15a561dd96853e31e77bb37ef43f532d',1,'Math.hpp']]],
-  ['using_5fatlas_5fns',['USING_ATLAS_NS',['../_atlas_8hpp.html#a3bfe8c4091fa80b2118ca71a4e7a5b7e',1,'Atlas.hpp']]],
-  ['using_5fatlas_5futils_5fns',['USING_ATLAS_UTILS_NS',['../_utils_8hpp.html#af56ee6d838ff2b88a48a84a70352ae31',1,'Utils.hpp']]],
-  ['using_5fgli_5fns',['USING_GLI_NS',['../_atlas_8hpp.html#aebd156984007b6bcd19066c3c3d90b6b',1,'Atlas.hpp']]],
-  ['using_5fglm_5fns',['USING_GLM_NS',['../_atlas_8hpp.html#a1315d3aae8c7ff394b199c5823950732',1,'Atlas.hpp']]],
-  ['utils_2ehpp',['Utils.hpp',['../_utils_8hpp.html',1,'']]]
+  ['texture',['Texture',['../classatlas_1_1gl_1_1_texture.html',1,'atlas::gl']]],
+  ['texture',['Texture',['../classatlas_1_1gl_1_1_texture.html#add445ea6708bc8d7afd6a1c4abeae215',1,'atlas::gl::Texture::Texture()'],['../classatlas_1_1gl_1_1_texture.html#a9c948fbe094af4bcc6c51d0b16a2d44a',1,'atlas::gl::Texture::Texture(std::string const &amp;filename)']]],
+  ['time',['Time',['../structatlas_1_1utils_1_1_time.html',1,'atlas::utils']]],
+  ['time',['Time',['../structatlas_1_1utils_1_1_time.html#a9b5876e70c2ab07106f0dda70c5761ff',1,'atlas::utils::Time::Time()'],['../structatlas_1_1utils_1_1_time.html#a5017072343caf53fcd270af9530a4138',1,'atlas::utils::Time::Time(Time const &amp;t)=default']]],
+  ['timer',['Timer',['../classatlas_1_1core_1_1_timer.html',1,'atlas::core']]],
+  ['timer',['Timer',['../classatlas_1_1core_1_1_timer.html#a03e4d010b13a480c7a3aec5cb288b366',1,'atlas::core::Timer']]],
+  ['totaltime',['totalTime',['../structatlas_1_1utils_1_1_time.html#a29c6ec8ded26b36c05e7e93fd3c48e26',1,'atlas::utils::Time']]],
+  ['track',['TRACK',['../classatlas_1_1utils_1_1_camera.html#a14cefa0b3770ec489328f30172c1cf73ab82057c0f8a7631cf533363631986a00',1,'atlas::utils::Camera']]],
+  ['transformgeometry',['transformGeometry',['../classatlas_1_1utils_1_1_geometry.html#abdbc9924b8b6ada0c325752fcb43e536',1,'atlas::utils::Geometry']]],
+  ['tumble',['TUMBLE',['../classatlas_1_1utils_1_1_camera.html#a14cefa0b3770ec489328f30172c1cf73a80c887bde0b0cbfcdffff4a433acf754',1,'atlas::utils::Camera']]]
 ];

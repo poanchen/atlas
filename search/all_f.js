@@ -1,21 +1,14 @@
 var searchData=
 [
-  ['savetoppm',['saveToPPM',['../classatlas_1_1utils_1_1_film.html#a2c13307a0c53d35e3514332fb960d5d1',1,'atlas::utils::Film']]],
-  ['scene',['Scene',['../classatlas_1_1utils_1_1_scene.html',1,'atlas::utils']]],
-  ['scene',['Scene',['../classatlas_1_1utils_1_1_scene.html#a90ad62df2b0ee91c5eb25b6b336f3daa',1,'atlas::utils::Scene']]],
-  ['sceneended',['sceneEnded',['../classatlas_1_1utils_1_1_scene.html#a8f61a3243054d9b9f04600a7db20abd0',1,'atlas::utils::Scene']]],
-  ['screenresizeevent',['screenResizeEvent',['../classatlas_1_1utils_1_1_scene.html#a2813a902f68854902e0ba57ec41857d8',1,'atlas::utils::Scene']]],
-  ['setgamma',['setGamma',['../classatlas_1_1utils_1_1_film.html#ad7588e36d583b939b4b9e2626f220c81',1,'atlas::utils::Film']]],
-  ['setshowoutofgamut',['setShowOutOfGamut',['../classatlas_1_1utils_1_1_film.html#a07dcc1a9df319f4f8a8f934a5a91d59c',1,'atlas::utils::Film']]],
-  ['severitylevel',['SeverityLevel',['../classatlas_1_1core_1_1_log.html#a1ba5307e8f2a88ce738f900a23bf5bf0',1,'atlas::core::Log']]],
-  ['shader',['Shader',['../classatlas_1_1gl_1_1_shader.html',1,'atlas::gl']]],
-  ['shader',['Shader',['../classatlas_1_1gl_1_1_shader.html#a47d9b3454cc9bbb9db2a54f0a5efb6be',1,'atlas::gl::Shader::Shader()'],['../classatlas_1_1gl_1_1_shader.html#a3e91c0b526fec7704f8f81773d71461a',1,'atlas::gl::Shader::Shader(Shader const &amp;shader)']]],
-  ['shaderfile',['shaderFile',['../structatlas_1_1gl_1_1_shader_info.html#a8aaf1174bab36d6fd2ed46710b644b3e',1,'atlas::gl::ShaderInfo']]],
-  ['shaderhandle',['shaderHandle',['../structatlas_1_1gl_1_1_shader_info.html#a09372cbbe845208cb1796a32be8aadb8',1,'atlas::gl::ShaderInfo']]],
-  ['shaderinfo',['ShaderInfo',['../structatlas_1_1gl_1_1_shader_info.html#af5a9a662ec81442720ee5e2574ba7b6c',1,'atlas::gl::ShaderInfo::ShaderInfo()'],['../structatlas_1_1gl_1_1_shader_info.html#a2ee0d3b179dc9508e772c668f9289fd8',1,'atlas::gl::ShaderInfo::ShaderInfo(GLenum type, std::string const &amp;name)'],['../structatlas_1_1gl_1_1_shader_info.html#a97f280e708880a7aa3cc66a125bc245d',1,'atlas::gl::ShaderInfo::ShaderInfo(ShaderInfo const &amp;shader, GLuint handle)'],['../structatlas_1_1gl_1_1_shader_info.html#a9d079bf261144385558bfbbd07b084c5',1,'atlas::gl::ShaderInfo::ShaderInfo(ShaderInfo const &amp;shader)=default']]],
-  ['shaderinfo',['ShaderInfo',['../structatlas_1_1gl_1_1_shader_info.html',1,'atlas::gl']]],
-  ['shaderpointer',['ShaderPointer',['../classatlas_1_1utils_1_1_geometry.html#a91816d7b51cc2c3cab54d26eab6f2350',1,'atlas::utils::Geometry']]],
-  ['shadertype',['shaderType',['../structatlas_1_1gl_1_1_shader_info.html#ab8070640b803a0152f975a6d8829eedd',1,'atlas::gl::ShaderInfo']]],
-  ['solvers_2ehpp',['Solvers.hpp',['../_solvers_8hpp.html',1,'']]],
-  ['start',['start',['../classatlas_1_1core_1_1_timer.html#a554a72aab684fa7779c4a4030d4fc47c',1,'atlas::core::Timer']]]
+  ['randomgenerator',['RandomGenerator',['../classatlas_1_1math_1_1_random_generator.html',1,'atlas::math']]],
+  ['randomgenerator',['RandomGenerator',['../classatlas_1_1math_1_1_random_generator.html#af9a9ba1e30223124a2a763692eccc4f9',1,'atlas::math::RandomGenerator::RandomGenerator()=default'],['../classatlas_1_1math_1_1_random_generator.html#af888ea280d515ebca326390fbcdb4273',1,'atlas::math::RandomGenerator::RandomGenerator(std::mt19937::result_type seed)']]],
+  ['ray',['Ray',['../structatlas_1_1math_1_1_ray.html',1,'atlas::math']]],
+  ['ray',['Ray',['../structatlas_1_1math_1_1_ray.html#ac2f9b1c17eba51b32fac385bd63ca7f4',1,'atlas::math::Ray::Ray()'],['../structatlas_1_1math_1_1_ray.html#a57b773c98582e3271e111b2f64b83f40',1,'atlas::math::Ray::Ray(Point const &amp;origin, Vector const &amp;dir)'],['../structatlas_1_1math_1_1_ray.html#aca4a1900ac76133b93b8196080a712f5',1,'atlas::math::Ray::Ray(Ray const &amp;ray)=default']]],
+  ['rendergeometry',['renderGeometry',['../classatlas_1_1utils_1_1_geometry.html#a9102f4121ae376bd3d33c9a004d1fde3',1,'atlas::utils::Geometry']]],
+  ['renderscene',['renderScene',['../classatlas_1_1utils_1_1_scene.html#a3b48e76f26422c7de64783c5a166bdbd',1,'atlas::utils::Scene']]],
+  ['reset',['reset',['../classatlas_1_1core_1_1_timer.html#adaf567fc679f00dd20a8ed44ddd05116',1,'atlas::core::Timer']]],
+  ['resetcamera',['resetCamera',['../classatlas_1_1utils_1_1_camera.html#a9d254a116a94b520a00748100863a530',1,'atlas::utils::Camera']]],
+  ['resetgeometry',['resetGeometry',['../classatlas_1_1utils_1_1_geometry.html#af62e6e66618d5f5c98817032c8978430',1,'atlas::utils::Geometry']]],
+  ['rgbcolour_2ehpp',['RGBColour.hpp',['../_r_g_b_colour_8hpp.html',1,'']]],
+  ['runapplication',['runApplication',['../classatlas_1_1utils_1_1_application.html#a510b7f6ae1865e07a4e96a743a1758aa',1,'atlas::utils::Application']]]
 ];

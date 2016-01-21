@@ -107,8 +107,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a90ad62df2b0ee91c5eb25b6b336f3daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81ba56b46e8890e3d98c284cff32f302"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_scene.html#a81ba56b46e8890e3d98c284cff32f302">~Scene</a> ()</td></tr>
 <tr class="separator:a81ba56b46e8890e3d98c284cff32f302"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a818fdd46c5b721a20c1765ffdf66a48c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_scene.html#a818fdd46c5b721a20c1765ffdf66a48c">mousePressEvent</a> (int button, int action, int modifiers)</td></tr>
-<tr class="separator:a818fdd46c5b721a20c1765ffdf66a48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e59b0d292dff80b23cb73c0634417e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_scene.html#aa9e59b0d292dff80b23cb73c0634417e">mousePressEvent</a> (int button, int action, int modifiers, double xPos, double yPos)</td></tr>
+<tr class="separator:aa9e59b0d292dff80b23cb73c0634417e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeafab1b8e128cfc3a3ce98bbc903513e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_scene.html#aeafab1b8e128cfc3a3ce98bbc903513e">mouseMoveEvent</a> (double xPos, double yPos)</td></tr>
 <tr class="separator:aeafab1b8e128cfc3a3ce98bbc903513e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa965ec3990aa8c7a9f8662faf1001a2a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classatlas_1_1utils_1_1_scene.html#aa965ec3990aa8c7a9f8662faf1001a2a">keyPressEvent</a> (int key, int scancode, int action, int mods)</td></tr>
@@ -248,7 +248,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00029">29</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00032">32</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -292,11 +292,11 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00023">23</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00026">26</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a818fdd46c5b721a20c1765ffdf66a48c"></a>
+<a class="anchor" id="aa9e59b0d292dff80b23cb73c0634417e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -319,7 +319,19 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>modifiers</em>&#160;</td>
+          <td class="paramname"><em>modifiers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>yPos</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -339,6 +351,8 @@ Protected Attributes</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">button</td><td>The button for which the event happened. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">action</td><td>The action that occurred. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">modifiers</td><td>The modifier keys that were pressed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">xPos</td><td>The x position of the cursor on the screen. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">yPos</td><td>The y position of the cursor on the screen. </td></tr>
   </table>
   </dd>
 </dl>
@@ -369,7 +383,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Called after the <a class="el" href="classatlas_1_1utils_1_1_scene.html" title="Provides a way of interfacing with the Application. ">Scene</a> is updated by the <a class="el" href="classatlas_1_1utils_1_1_application.html" title="Defines a class that wraps all of the GLFW windowing system. ">Application</a> so it can render. </p>
 
-<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00051">51</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00054">54</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -401,7 +415,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00059">59</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00062">62</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -445,7 +459,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00037">37</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00040">40</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -479,7 +493,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00046">46</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8cpp_source.html#l00049">49</a> of file <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -503,7 +517,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The projection matrix for the <a class="el" href="classatlas_1_1utils_1_1_scene.html" title="Provides a way of interfacing with the Application. ">Scene</a>. This should be updated inside screenResizeEvent. </p>
 
-<p>Definition at line <a class="el" href="_scene_8hpp_source.html#l00156">156</a> of file <a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8hpp_source.html#l00159">159</a> of file <a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>.</p>
 
 </div>
 </div>
@@ -526,7 +540,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The <a class="el" href="structatlas_1_1utils_1_1_time.html" title="Stores all timing data required for animation driven Scenes. ">Time</a> data for the <a class="el" href="classatlas_1_1utils_1_1_scene.html" title="Provides a way of interfacing with the Application. ">Scene</a>. </p>
 
-<p>Definition at line <a class="el" href="_scene_8hpp_source.html#l00169">169</a> of file <a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8hpp_source.html#l00172">172</a> of file <a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>.</p>
 
 </div>
 </div>
@@ -549,7 +563,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The view matrix for the <a class="el" href="classatlas_1_1utils_1_1_scene.html" title="Provides a way of interfacing with the Application. ">Scene</a>. This can be paired with the <a class="el" href="classatlas_1_1utils_1_1_camera.html" title="Defines a simple camera interface to be used with Scenes. ">Camera</a> class to provide a better viewing of objects. </p>
 
-<p>Definition at line <a class="el" href="_scene_8hpp_source.html#l00163">163</a> of file <a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_scene_8hpp_source.html#l00166">166</a> of file <a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>.</p>
 
 </div>
 </div>
@@ -560,7 +574,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 15 2016 20:13:34 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 21 2016 14:02:53 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

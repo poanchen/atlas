@@ -134,15 +134,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                ERROR_LOG(<span class="stringliteral">&quot;GL error: &quot;</span> + message);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classatlas_1_1gl_1_1_error_check.html#a71b98188244c278112247ffde663765f">   46</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classatlas_1_1gl_1_1_error_check.html#a71b98188244c278112247ffde663765f">ErrorCheck::clearGLErrors</a>()</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            GLenum err = GL_NO_ERROR;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">while</span> ((err = glGetError()) != GL_NO_ERROR)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            { }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 <div class="ttc" id="classatlas_1_1gl_1_1_error_check_html_aacc8a66968fc4fdef5e177b32af4287c"><div class="ttname"><a href="classatlas_1_1gl_1_1_error_check.html#aacc8a66968fc4fdef5e177b32af4287c">atlas::gl::ErrorCheck::checkGLErrors</a></div><div class="ttdeci">static void checkGLErrors()</div><div class="ttdef"><b>Definition:</b> <a href="_error_check_8cpp_source.html#l00009">ErrorCheck.cpp:9</a></div></div>
+<div class="ttc" id="classatlas_1_1gl_1_1_error_check_html_a71b98188244c278112247ffde663765f"><div class="ttname"><a href="classatlas_1_1gl_1_1_error_check.html#a71b98188244c278112247ffde663765f">atlas::gl::ErrorCheck::clearGLErrors</a></div><div class="ttdeci">static void clearGLErrors()</div><div class="ttdef"><b>Definition:</b> <a href="_error_check_8cpp_source.html#l00046">ErrorCheck.cpp:46</a></div></div>
 <div class="ttc" id="namespaceatlas_html"><div class="ttname"><a href="namespaceatlas.html">atlas</a></div><div class="ttdef"><b>Definition:</b> <a href="_constants_8hpp_source.html#l00017">Constants.hpp:17</a></div></div>
 <div class="ttc" id="_g_l_8hpp_html"><div class="ttname"><a href="_g_l_8hpp.html">GL.hpp</a></div><div class="ttdoc">Main header for the GL module. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 15 2016 20:13:34 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 21 2016 14:02:52 for Atlas by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
