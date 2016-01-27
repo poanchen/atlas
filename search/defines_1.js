@@ -5,6 +5,7 @@ var searchData=
   ['using_5fatlas_5fgl_5fns',['USING_ATLAS_GL_NS',['../_g_l_8hpp.html#a761a02f2e89f365fd5a8408b6b9e0f64',1,'GL.hpp']]],
   ['using_5fatlas_5fmath_5fns',['USING_ATLAS_MATH_NS',['../_math_8hpp.html#a15a561dd96853e31e77bb37ef43f532d',1,'Math.hpp']]],
   ['using_5fatlas_5fns',['USING_ATLAS_NS',['../_atlas_8hpp.html#a3bfe8c4091fa80b2118ca71a4e7a5b7e',1,'Atlas.hpp']]],
+  ['using_5fatlas_5fprimitives_5fns',['USING_ATLAS_PRIMITIVES_NS',['../_primitives_8hpp.html#a0a9b44aae8298148367cccdf440e76e3',1,'Primitives.hpp']]],
   ['using_5fatlas_5futils_5fns',['USING_ATLAS_UTILS_NS',['../_utils_8hpp.html#af56ee6d838ff2b88a48a84a70352ae31',1,'Utils.hpp']]],
   ['using_5fgli_5fns',['USING_GLI_NS',['../_atlas_8hpp.html#aebd156984007b6bcd19066c3c3d90b6b',1,'Atlas.hpp']]],
   ['using_5fglm_5fns',['USING_GLM_NS',['../_atlas_8hpp.html#a1315d3aae8c7ff394b199c5823950732',1,'Atlas.hpp']]]

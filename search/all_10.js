@@ -17,5 +17,7 @@ var searchData=
   ['shaderpointer',['ShaderPointer',['../classatlas_1_1utils_1_1_geometry.html#a91816d7b51cc2c3cab54d26eab6f2350',1,'atlas::utils::Geometry']]],
   ['shadertype',['shaderType',['../structatlas_1_1gl_1_1_shader_info.html#ab8070640b803a0152f975a6d8829eedd',1,'atlas::gl::ShaderInfo']]],
   ['solvers_2ehpp',['Solvers.hpp',['../_solvers_8hpp.html',1,'']]],
+  ['sphere',['Sphere',['../classatlas_1_1primitives_1_1_sphere.html',1,'atlas::primitives']]],
+  ['sphere',['Sphere',['../classatlas_1_1primitives_1_1_sphere.html#a94594192adf99bf62da445bf72266ee1',1,'atlas::primitives::Sphere::Sphere(float radius=1.0f, int subDivsX=20, int subDivsY=20)'],['../classatlas_1_1primitives_1_1_sphere.html#ac4ba8c8eab49279acc9f3e23cbc83bea',1,'atlas::primitives::Sphere::Sphere(Sphere const &amp;s)']]],
   ['start',['start',['../classatlas_1_1core_1_1_timer.html#a554a72aab684fa7779c4a4030d4fc47c',1,'atlas::core::Timer']]]
 ];
