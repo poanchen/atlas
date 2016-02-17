@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['randomgenerator',['RandomGenerator',['../classatlas_1_1math_1_1_random_generator.html',1,'atlas::math']]],
-  ['ray',['Ray',['../structatlas_1_1math_1_1_ray.html',1,'atlas::math']]]
+  ['primitive',['Primitive',['../classatlas_1_1primitives_1_1_primitive.html',1,'atlas::primitives']]]
 ];

@@ -4,6 +4,7 @@ var searchData=
   ['scene',['Scene',['../classatlas_1_1utils_1_1_scene.html#a90ad62df2b0ee91c5eb25b6b336f3daa',1,'atlas::utils::Scene']]],
   ['sceneended',['sceneEnded',['../classatlas_1_1utils_1_1_scene.html#a8f61a3243054d9b9f04600a7db20abd0',1,'atlas::utils::Scene']]],
   ['screenresizeevent',['screenResizeEvent',['../classatlas_1_1utils_1_1_scene.html#a2813a902f68854902e0ba57ec41857d8',1,'atlas::utils::Scene']]],
+  ['setfps',['setFPS',['../classatlas_1_1utils_1_1_f_p_s_counter.html#ac659d8b3d34837616703f2c79730a88c',1,'atlas::utils::FPSCounter']]],
   ['setgamma',['setGamma',['../classatlas_1_1utils_1_1_film.html#ad7588e36d583b939b4b9e2626f220c81',1,'atlas::utils::Film']]],
   ['setshowoutofgamut',['setShowOutOfGamut',['../classatlas_1_1utils_1_1_film.html#a07dcc1a9df319f4f8a8f934a5a91d59c',1,'atlas::utils::Film']]],
   ['shader',['Shader',['../classatlas_1_1gl_1_1_shader.html#a47d9b3454cc9bbb9db2a54f0a5efb6be',1,'atlas::gl::Shader::Shader()'],['../classatlas_1_1gl_1_1_shader.html#a3e91c0b526fec7704f8f81773d71461a',1,'atlas::gl::Shader::Shader(Shader const &amp;shader)']]],

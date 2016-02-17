@@ -5,6 +5,7 @@ var searchData=
   ['scene',['Scene',['../classatlas_1_1utils_1_1_scene.html#a90ad62df2b0ee91c5eb25b6b336f3daa',1,'atlas::utils::Scene']]],
   ['sceneended',['sceneEnded',['../classatlas_1_1utils_1_1_scene.html#a8f61a3243054d9b9f04600a7db20abd0',1,'atlas::utils::Scene']]],
   ['screenresizeevent',['screenResizeEvent',['../classatlas_1_1utils_1_1_scene.html#a2813a902f68854902e0ba57ec41857d8',1,'atlas::utils::Scene']]],
+  ['setfps',['setFPS',['../classatlas_1_1utils_1_1_f_p_s_counter.html#ac659d8b3d34837616703f2c79730a88c',1,'atlas::utils::FPSCounter']]],
   ['setgamma',['setGamma',['../classatlas_1_1utils_1_1_film.html#ad7588e36d583b939b4b9e2626f220c81',1,'atlas::utils::Film']]],
   ['setshowoutofgamut',['setShowOutOfGamut',['../classatlas_1_1utils_1_1_film.html#a07dcc1a9df319f4f8a8f934a5a91d59c',1,'atlas::utils::Film']]],
   ['severitylevel',['SeverityLevel',['../classatlas_1_1core_1_1_log.html#a1ba5307e8f2a88ce738f900a23bf5bf0',1,'atlas::core::Log']]],
@@ -17,7 +18,7 @@ var searchData=
   ['shaderpointer',['ShaderPointer',['../classatlas_1_1utils_1_1_geometry.html#a91816d7b51cc2c3cab54d26eab6f2350',1,'atlas::utils::Geometry']]],
   ['shadertype',['shaderType',['../structatlas_1_1gl_1_1_shader_info.html#ab8070640b803a0152f975a6d8829eedd',1,'atlas::gl::ShaderInfo']]],
   ['solvers_2ehpp',['Solvers.hpp',['../_solvers_8hpp.html',1,'']]],
-  ['sphere',['Sphere',['../classatlas_1_1primitives_1_1_sphere.html',1,'atlas::primitives']]],
   ['sphere',['Sphere',['../classatlas_1_1primitives_1_1_sphere.html#a94594192adf99bf62da445bf72266ee1',1,'atlas::primitives::Sphere::Sphere(float radius=1.0f, int subDivsX=20, int subDivsY=20)'],['../classatlas_1_1primitives_1_1_sphere.html#ac4ba8c8eab49279acc9f3e23cbc83bea',1,'atlas::primitives::Sphere::Sphere(Sphere const &amp;s)']]],
+  ['sphere',['Sphere',['../classatlas_1_1primitives_1_1_sphere.html',1,'atlas::primitives']]],
   ['start',['start',['../classatlas_1_1core_1_1_timer.html#a554a72aab684fa7779c4a4030d4fc47c',1,'atlas::core::Timer']]]
 ];

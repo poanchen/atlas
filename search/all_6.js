@@ -1,9 +1,11 @@
 var searchData=
 [
+  ['genbuffer',['genBuffer',['../classatlas_1_1gl_1_1_buffer.html#a2f213979369ffacf8f2e7c324a3f24de',1,'atlas::gl::Buffer']]],
   ['geometry',['Geometry',['../classatlas_1_1utils_1_1_geometry.html',1,'atlas::utils']]],
   ['geometry',['Geometry',['../classatlas_1_1utils_1_1_geometry.html#ac6e0c5257f5768c8409803331de80ed4',1,'atlas::utils::Geometry::Geometry()'],['../classatlas_1_1utils_1_1_geometry.html#a278ea6622852a582610d5c68397f54cf',1,'atlas::utils::Geometry::Geometry(Geometry const &amp;geom)']]],
   ['getaspectratio',['getAspectRatio',['../classatlas_1_1utils_1_1_film.html#a2286ba0243bcdc317d5042723f4a3ce2',1,'atlas::utils::Film']]],
   ['getattributevariable',['getAttributeVariable',['../classatlas_1_1gl_1_1_shader.html#a2af20101622729e65e1b693b801515b4',1,'atlas::gl::Shader']]],
+  ['getbuffersubdata',['getBufferSubData',['../classatlas_1_1gl_1_1_buffer.html#a8de9a2de31dbbb7ab51945ff08665a4a',1,'atlas::gl::Buffer']]],
   ['getcameramatrix',['getCameraMatrix',['../classatlas_1_1utils_1_1_camera.html#a6a5023b84a8098a706bdc789916382c8',1,'atlas::utils::Camera']]],
   ['getcurrentframe',['getCurrentFrame',['../classatlas_1_1utils_1_1_film.html#a49904dab1415f57bdbd4e0785b9e4791',1,'atlas::utils::Film']]],
   ['getcurrentscene',['getCurrentScene',['../classatlas_1_1utils_1_1_application.html#a59d22a2d8d2248809071fcbe39eec5f3',1,'atlas::utils::Application']]],
