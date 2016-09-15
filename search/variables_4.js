@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['shaderfile',['shaderFile',['../structatlas_1_1gl_1_1_shader_info.html#a8aaf1174bab36d6fd2ed46710b644b3e',1,'atlas::gl::ShaderInfo']]],
-  ['shaderhandle',['shaderHandle',['../structatlas_1_1gl_1_1_shader_info.html#a09372cbbe845208cb1796a32be8aadb8',1,'atlas::gl::ShaderInfo']]],
-  ['shadertype',['shaderType',['../structatlas_1_1gl_1_1_shader_info.html#ab8070640b803a0152f975a6d8829eedd',1,'atlas::gl::ShaderInfo']]]
+  ['filename',['filename',['../structatlas_1_1gl_1_1_shader_unit.html#a334bf17fc36e769dd5bf5769548fd2ef',1,'atlas::gl::ShaderUnit']]],
+  ['fonttexture',['fontTexture',['../structatlas_1_1utils_1_1_gui_data.html#a2d78d1bf05e9d2f7931291f902547761',1,'atlas::utils::GuiData']]],
+  ['fraghandle',['fragHandle',['../structatlas_1_1utils_1_1_gui_data.html#a50311f4018d35725972db3ccdb700a0d',1,'atlas::utils::GuiData']]]
 ];

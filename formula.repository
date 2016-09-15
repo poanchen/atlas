@@ -1,20 +1,15 @@
 \form#0:\[ |a - b| \leq \epsilon * ( |a| + |b| ) / 2 \]
 \form#1:$ a \geq b $
 \form#2:$ a \leq b $
-\form#3:$x$
-\form#4:$ [min, max] $
-\form#5:$ [ 0, \infty] $
-\form#6:$ \infty$
-\form#7:$ [min, max]$
-\form#8:$ [0, \infty] $
-\form#9:$ \infty $
-\form#10:$ (0, 0, 0 $
-\form#11:$ (0, 1, 0) $
-\form#12:\[ \mathbf{o} + t * \mathbf{d} \]
-\form#13:$ h / v $
-\form#14:$ h $
-\form#15:$ v $
-\form#16:$(r, g, b)$
-\form#17:\[ \frac{(r, g, b)}{\max(r, g, b)} \]
-\form#18:\[ (r, \theta, \phi) \]
-\form#19:\[ (r, \theta, z) \]
+\form#3:\[ (r, \theta, \phi) \]
+\form#4:\[ (r, \theta, z) \]
+\form#5:$x$
+\form#6:$ [min, max] $
+\form#7:$ [ 0, \infty] $
+\form#8:$ \infty$
+\form#9:$ [min, max]$
+\form#10:$ [0, \infty] $
+\form#11:$ \infty $
+\form#12:$ (0, 0, 0 $
+\form#13:$ (0, 1, 0) $
+\form#14:\[ \mathbf{o} + t * \mathbf{d} \]

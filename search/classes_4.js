@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['errorcheck',['ErrorCheck',['../classatlas_1_1gl_1_1_error_check.html',1,'atlas::gl']]]
+  ['fpscounter',['FPSCounter',['../classatlas_1_1utils_1_1_f_p_s_counter.html',1,'atlas::utils']]]
 ];

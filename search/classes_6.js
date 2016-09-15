@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['geometry',['Geometry',['../classatlas_1_1utils_1_1_geometry.html',1,'atlas::utils']]]
+  ['logicexception',['LogicException',['../classatlas_1_1core_1_1_logic_exception.html',1,'atlas::core']]]
 ];

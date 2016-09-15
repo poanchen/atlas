@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['shaderpointer',['ShaderPointer',['../classatlas_1_1utils_1_1_geometry.html#a91816d7b51cc2c3cab54d26eab6f2350',1,'atlas::utils::Geometry']]]
+  ['uniformkey',['UniformKey',['../classatlas_1_1utils_1_1_geometry.html#a5821e28dbfb85147e165f45daf7e0d7d',1,'atlas::utils::Geometry']]]
 ];

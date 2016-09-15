@@ -1,14 +1,13 @@
 var searchData=
 [
-  ['savetoppm',['saveToPPM',['../classatlas_1_1utils_1_1_film.html#a2c13307a0c53d35e3514332fb960d5d1',1,'atlas::utils::Film']]],
-  ['scene',['Scene',['../classatlas_1_1utils_1_1_scene.html#a90ad62df2b0ee91c5eb25b6b336f3daa',1,'atlas::utils::Scene']]],
-  ['sceneended',['sceneEnded',['../classatlas_1_1utils_1_1_scene.html#a8f61a3243054d9b9f04600a7db20abd0',1,'atlas::utils::Scene']]],
-  ['screenresizeevent',['screenResizeEvent',['../classatlas_1_1utils_1_1_scene.html#a2813a902f68854902e0ba57ec41857d8',1,'atlas::utils::Scene']]],
-  ['setfps',['setFPS',['../classatlas_1_1utils_1_1_f_p_s_counter.html#ac659d8b3d34837616703f2c79730a88c',1,'atlas::utils::FPSCounter']]],
-  ['setgamma',['setGamma',['../classatlas_1_1utils_1_1_film.html#ad7588e36d583b939b4b9e2626f220c81',1,'atlas::utils::Film']]],
-  ['setshowoutofgamut',['setShowOutOfGamut',['../classatlas_1_1utils_1_1_film.html#a07dcc1a9df319f4f8a8f934a5a91d59c',1,'atlas::utils::Film']]],
-  ['shader',['Shader',['../classatlas_1_1gl_1_1_shader.html#a47d9b3454cc9bbb9db2a54f0a5efb6be',1,'atlas::gl::Shader::Shader()'],['../classatlas_1_1gl_1_1_shader.html#a3e91c0b526fec7704f8f81773d71461a',1,'atlas::gl::Shader::Shader(Shader const &amp;shader)']]],
-  ['shaderinfo',['ShaderInfo',['../structatlas_1_1gl_1_1_shader_info.html#af5a9a662ec81442720ee5e2574ba7b6c',1,'atlas::gl::ShaderInfo::ShaderInfo()'],['../structatlas_1_1gl_1_1_shader_info.html#a2ee0d3b179dc9508e772c668f9289fd8',1,'atlas::gl::ShaderInfo::ShaderInfo(GLenum type, std::string const &amp;name)'],['../structatlas_1_1gl_1_1_shader_info.html#a97f280e708880a7aa3cc66a125bc245d',1,'atlas::gl::ShaderInfo::ShaderInfo(ShaderInfo const &amp;shader, GLuint handle)'],['../structatlas_1_1gl_1_1_shader_info.html#a9d079bf261144385558bfbbd07b084c5',1,'atlas::gl::ShaderInfo::ShaderInfo(ShaderInfo const &amp;shader)=default']]],
-  ['sphere',['Sphere',['../classatlas_1_1primitives_1_1_sphere.html#a94594192adf99bf62da445bf72266ee1',1,'atlas::primitives::Sphere::Sphere(float radius=1.0f, int subDivsX=20, int subDivsY=20)'],['../classatlas_1_1primitives_1_1_sphere.html#ac4ba8c8eab49279acc9f3e23cbc83bea',1,'atlas::primitives::Sphere::Sphere(Sphere const &amp;s)']]],
-  ['start',['start',['../classatlas_1_1core_1_1_timer.html#a554a72aab684fa7779c4a4030d4fc47c',1,'atlas::core::Timer']]]
+  ['randomgenerator',['RandomGenerator',['../classatlas_1_1math_1_1_random_generator.html#af9a9ba1e30223124a2a763692eccc4f9',1,'atlas::math::RandomGenerator::RandomGenerator()=default'],['../classatlas_1_1math_1_1_random_generator.html#af888ea280d515ebca326390fbcdb4273',1,'atlas::math::RandomGenerator::RandomGenerator(std::mt19937::result_type seed)']]],
+  ['ray',['Ray',['../structatlas_1_1math_1_1_ray.html#ac2f9b1c17eba51b32fac385bd63ca7f4',1,'atlas::math::Ray::Ray()'],['../structatlas_1_1math_1_1_ray.html#a57b773c98582e3271e111b2f64b83f40',1,'atlas::math::Ray::Ray(Point const &amp;origin, Vector const &amp;dir)'],['../structatlas_1_1math_1_1_ray.html#aca4a1900ac76133b93b8196080a712f5',1,'atlas::math::Ray::Ray(Ray const &amp;ray)=default']]],
+  ['reloadshaders',['reloadShaders',['../classatlas_1_1gl_1_1_shader.html#abd876dc2039205334d733a885e06ec10',1,'atlas::gl::Shader::reloadShaders()'],['../classatlas_1_1utils_1_1_geometry.html#a382ab7516b5e1ef3b8aced850a492625',1,'atlas::utils::Geometry::reloadShaders()']]],
+  ['rendergeometry',['renderGeometry',['../classatlas_1_1utils_1_1_geometry.html#aa1b5b8f75aabcd61331e51b6c6a0c409',1,'atlas::utils::Geometry::renderGeometry(math::Matrix4 const &amp;projection, math::Matrix4 const &amp;view)'],['../classatlas_1_1utils_1_1_geometry.html#af2ba8af2860fbee9d39502a392dfcfb8',1,'atlas::utils::Geometry::renderGeometry()']]],
+  ['renderscene',['renderScene',['../classatlas_1_1utils_1_1_scene.html#aebe825d475e7bbbda1918cf6626f0954',1,'atlas::utils::Scene']]],
+  ['reset',['reset',['../classatlas_1_1core_1_1_timer.html#adaf567fc679f00dd20a8ed44ddd05116',1,'atlas::core::Timer']]],
+  ['resetcamera',['resetCamera',['../classatlas_1_1utils_1_1_camera.html#ac2724b251ad443ae7042f2e840a9321a',1,'atlas::utils::Camera']]],
+  ['resetgeometry',['resetGeometry',['../classatlas_1_1utils_1_1_geometry.html#af7b26a5faf9710fb58163c43d5f3422f',1,'atlas::utils::Geometry']]],
+  ['runapplication',['runApplication',['../classatlas_1_1utils_1_1_application.html#a510b7f6ae1865e07a4e96a743a1758aa',1,'atlas::utils::Application']]],
+  ['runtimeexception',['RuntimeException',['../classatlas_1_1core_1_1_runtime_exception.html#aaa5222be35834deb3df466ae28f5e6b8',1,'atlas::core::RuntimeException::RuntimeException(const char *msg)'],['../classatlas_1_1core_1_1_runtime_exception.html#a0588160eda5cb1d60e2a2f76a9a6edcd',1,'atlas::core::RuntimeException::RuntimeException(std::string const &amp;msg)']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['d',['d',['../structatlas_1_1math_1_1_ray.html#a5854fa395a5d662a2e7207982dbe402b',1,'atlas::math::Ray']]],
-  ['deltatime',['deltaTime',['../structatlas_1_1utils_1_1_time.html#ae0df01ae49ffea343dba5db1f785f440',1,'atlas::utils::Time']]]
+  ['contextversion',['contextVersion',['../structatlas_1_1utils_1_1_window_settings.html#ae280be013e2f0b9c497828a9ad1c9527',1,'atlas::utils::WindowSettings']]],
+  ['currenttime',['currentTime',['../classatlas_1_1core_1_1_time.html#a0d88cdbf9767e711193c418c63ff2f39',1,'atlas::core::Time']]]
 ];

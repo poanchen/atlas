@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['utils_2ehpp',['Utils.hpp',['../_utils_8hpp.html',1,'']]]
+  ['platform_2ehpp',['Platform.hpp',['../_platform_8hpp.html',1,'']]]
 ];

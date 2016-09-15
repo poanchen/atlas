@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['macros_2ehpp',['Macros.hpp',['../_macros_8hpp.html',1,'']]],
-  ['math_2ehpp',['Math.hpp',['../_math_8hpp.html',1,'']]],
-  ['matrix_2ehpp',['Matrix.hpp',['../_matrix_8hpp.html',1,'']]]
+  ['float_2ehpp',['Float.hpp',['../_float_8hpp.html',1,'']]],
+  ['fpscounter_2ehpp',['FPSCounter.hpp',['../_f_p_s_counter_8hpp.html',1,'']]]
 ];
