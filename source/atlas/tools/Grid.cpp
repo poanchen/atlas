@@ -6,7 +6,7 @@ namespace atlas
     namespace tools
     {
         constexpr auto gridVs =
-            R"(#version 430 core
+            R"(#version 410 core
 
 layout (location = 0) in vec3 vPosition;
 
@@ -21,7 +21,7 @@ void main()
 )";
 
         constexpr auto gridFS =
-            R"(#version 430 core
+            R"(#version 410 core
 
 uniform vec4 colour;
 

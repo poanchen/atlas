@@ -21,7 +21,7 @@ namespace atlas
          * \class Grid
          * \brief A simple reference grid used for modelling and animation
          * projects. Please be advised that the rendering code for this
-         * class assumes an OpenGL version of 4.3 or above.
+         * class assumes an OpenGL version of 4.1 or above.
          */
         class Grid final : public utils::Geometry
         {
